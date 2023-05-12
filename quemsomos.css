@@ -1,0 +1,676 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.header img {
+   
+    padding: 1.5em;
+    width: 10%;
+    height: 10%;
+    background-color: #3a3939;
+}
+
+.logo-eco img {
+    width: 4em;
+    height: 4em;
+    position: absolute;
+    left: 12%;
+    top: 1%;
+}
+
+.icon1-rodape img {
+    position: absolute;
+    width: 2%;
+    height: 4%;
+    left: 19.5em;
+    top: 3.9em;
+}
+
+.icon2-rodape img {
+    position: absolute;
+    width: 2%;
+    height: 4%;
+    left: 39em;
+    top: 3.9em;
+}
+
+.icon3-rodape img {
+    position: absolute;
+    width: 2%;
+    height: 4%;
+    left: 62.5em;
+    top: 3.7em;
+}
+
+.icon4-rodape img {
+    position: absolute;
+    width: 2%;
+    height: 4%;
+    left: 84.5em;
+    top: 3.7em;
+}
+
+.icon5-rodape img {
+    position: absolute;
+    width: 2%;
+    height: 4%;
+    left: 105em;
+    top: 3.9em;
+}
+
+.icon-home {
+    position: absolute;
+    width: 2%;
+    height: 1%;
+    left: 36%;
+    top: 2em;
+}
+
+@font-face {
+    font-family: 'Abel-regular', Times, serif;
+    src: url('fonts/Abel-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+.topnav a {
+    font-family: 'Abel-regular', Times, serif;
+    font-size: 23px;
+    position: relative;
+    left: 150px;
+    top: -2.3em;
+    color: #ffffff;
+    text-align: center;
+    padding: 1% 2.5%;
+    text-decoration: none;
+
+}
+
+.banner-gif {
+    text-align: center;
+    padding: 15px;
+}
+
+.cabecalho {
+    margin: 0;
+    background-color: #3a3939;
+    width: 100%;
+}
+
+.topnav {
+    padding: 0% 2.5%;
+    display: flex;
+    justify-content: space-evenly;
+
+    background-color: #3a3939;
+}
+
+.nargas video {
+    position: relative;
+    top: -65px;
+}
+
+.sus {
+
+    position: absolute;
+    width: 20%;
+    height: 0%;
+    left: 2%;
+    top: 210px;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 1000%;
+    font-size: 200%;
+    line-height: 58px;
+
+    color: #ffffff;
+
+
+}
+
+.topnav a:hover {
+    color: #c5c3c3;
+    background-color: #3f3e3e9f;
+}
+
+@font-face {
+    font-family: 'Greatvibes';
+    src: url('fonts/GreatVibes-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+.descrição p {
+    font-family: 'Abel-regular', Times, serif;
+    font-size: 2em;
+    margin: 4;
+
+}
+
+.morvan {
+
+    position: absolute;
+    width: 197px;
+    height: 44px;
+    left: 41px;
+    top: 8%;
+
+    font-family: 'Abel-regular', Times, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+
+.intro {
+    position: absolute;
+    width: 40%;
+    height: 5%;
+    left: 35%;
+    top: 111%;
+
+    font-family: 'Abel-regular', Times, serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 110px;
+    line-height: 78px;
+
+    color: #F1EBEB;
+}
+
+.video video {
+    position: absolute;
+    top: 5%;
+}
+
+.compo {
+    position: absolute;
+    width: 400px;
+    height: 87px;
+    left: 760px;
+    top: 1400px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 75px;
+
+    color: #000000;
+
+    background-image:
+        linear-gradient(to bottom,
+            transparent 0%,
+            transparent 90%,
+            rgb(0, 0, 0) 90%,
+            rgba(0, 0, 0, 0.712) 100%);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x: right;
+
+    transition: background-size 400ms;
+}
+
+.compo:hover {
+    background-size: 100% 100%;
+    background-position-x: left;
+}
+
+.text1 {
+    position: absolute;
+    top: 145%;
+    left: 47%;
+    font-size: 64px;
+    font-family: 'Fugaz One';
+    font-style: normal;
+}
+
+.card {/* leo*/
+    position:absolute;
+    top: 180%;
+    left: 25%;
+    width: 17em;
+    height: 22.5em;
+    background: #171717;
+    transition: 1s ease-in-out;
+    clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card span {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 1em;
+  }
+  
+  .card .info {
+    font-weight: 400;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 0.72em;
+    margin: 1em;
+  }
+  
+  .card .img {
+    width: 4.8em;
+    height: 4.8em;
+    background: white;
+    border-radius: 15px;
+    margin: auto;
+  }
+  
+  .card .share {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+  }
+  
+  .card a {
+    color: white;
+    transition: .4s ease-in-out;
+  }
+  
+  .card a:hover {
+    color: red;
+  }
+  
+  .card button {
+    padding: 0.8em 1.7em;
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    transition: .4s ease-in-out;
+  }
+  
+  .card button:hover {
+    background: red;
+    color: white;
+    cursor: pointer;
+  }/* fim leo*/
+
+  .card1 {/* Nicolas*/
+    position:absolute;
+    top: 180%;
+    left: 45%;
+    width: 17em;
+    height: 22.5em;
+    background: #171717;
+    transition: 1s ease-in-out;
+    clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card1 span {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 1em;
+  }
+  
+  .card1 .info1 {
+    font-weight: 400;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 0.72em;
+    margin: 1em;
+  }
+  
+  .card1 .img1 {
+    width: 4.8em;
+    height: 4.8em;
+    background: white;
+    border-radius: 15px;
+    margin: auto;
+  }
+  
+  .card1 .share1 {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+  }
+  
+  .card1 a {
+    color: white;
+    transition: .4s ease-in-out;
+  }
+  
+  .card1 a:hover {
+    color: red;
+  }
+  
+  .card1 button {
+    padding: 0.8em 1.7em;
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    transition: .4s ease-in-out;
+  }
+  
+  .card1 button:hover {
+    background: red;
+    color: white;
+    cursor: pointer;
+  }/* fim Nicolas*/
+  
+  .card2 {/* João*/
+    position:absolute;
+    top: 180%;
+    left: 65%;
+    width: 17em;
+    height: 22.5em;
+    background: #171717;
+    transition: 1s ease-in-out;
+    clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card2 span {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 1em;
+  }
+  
+  .card2 .info2 {
+    font-weight: 400;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 0.72em;
+    margin: 1em;
+  }
+  
+  .card2 .img2 {
+    width: 4.8em;
+    height: 4.8em;
+    background: white;
+    border-radius: 15px;
+    margin: auto;
+  }
+  
+  .card2 .share2 {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+  }
+  
+  .card2 a {
+    color: white;
+    transition: .4s ease-in-out;
+  }
+  
+  .card2 a:hover {
+    color: red;
+  }
+  
+  .card2 button {
+    padding: 0.8em 1.7em;
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    transition: .4s ease-in-out;
+  }
+  
+  .card2 button:hover {
+    background: red;
+    color: white;
+    cursor: pointer;
+  }/* fim joão*/
+
+  .card3 {/* Yan*/
+    position:absolute;
+    top: 240%;
+    left: 25%;
+    width: 17em;
+    height: 22.5em;
+    background: #171717;
+    transition: 1s ease-in-out;
+    clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card3 span {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 1em;
+  }
+  
+  .card3 .info3 {
+    font-weight: 400;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 0.72em;
+    margin: 1em;
+  }
+  
+  .card3 .img3 {
+    width: 4.8em;
+    height: 4.8em;
+    background: white;
+    border-radius: 15px;
+    margin: auto;
+  }
+  
+  .card3 .share3 {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+  }
+  
+  .card3 a {
+    color: white;
+    transition: .4s ease-in-out;
+  }
+  
+  .card3 a:hover {
+    color: red;
+  }
+  
+  .card3 button {
+    padding: 0.8em 1.7em;
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    transition: .4s ease-in-out;
+  }
+  
+  .card3 button:hover {
+    background: red;
+    color: white;
+    cursor: pointer;
+  }/* fim Yan*/
+
+  .card4 {/* Dias*/
+    position:absolute;
+    top: 240%;
+    left: 45%;
+    width: 17em;
+    height: 22.5em;
+    background: #171717;
+    transition: 1s ease-in-out;
+    clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card4 span {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 1em;
+  }
+  
+  .card4 .info4 {
+    font-weight: 400;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 0.72em;
+    margin: 1em;
+  }
+  
+  .card4 .img4 {
+    width: 4.8em;
+    height: 4.8em;
+    background: white;
+    border-radius: 15px;
+    margin: auto;
+  }
+  
+  .card4 .share4 {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+  }
+  
+  .card4 a {
+    color: white;
+    transition: .4s ease-in-out;
+  }
+  
+  .card4 a:hover {
+    color: red;
+  }
+  
+  .card4 button {
+    padding: 0.8em 1.7em;
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    transition: .4s ease-in-out;
+  }
+  
+  .card4 button:hover {
+    background: red;
+    color: white;
+    cursor: pointer;
+  }/* fim Dias*/
+
+  .card5 {/* Gabi Caet*/
+    position:absolute;
+    top: 240%;
+    left: 65%;
+    width: 17em;
+    height: 22.5em;
+    background: #171717;
+    transition: 1s ease-in-out;
+    clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card5 span {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 1em;
+  }
+  
+  .card5 .info5 {
+    font-weight: 400;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 0.72em;
+    margin: 1em;
+  }
+  
+  .card5 .img5 {
+    width: 4.8em;
+    height: 4.8em;
+    background: white;
+    border-radius: 15px;
+    margin: auto;
+  }
+  
+  .card5 .share5 {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+  }
+  
+  .card5 a {
+    color: white;
+    transition: .4s ease-in-out;
+  }
+  
+  .card5 a:hover {
+    color: red;
+  }
+  
+  .card5 button {
+    padding: 0.8em 1.7em;
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    transition: .4s ease-in-out;
+  }
+  
+  .card5 button:hover {
+    background: red;
+    color: white;
+    cursor: pointer;
+  }/* fim Gabi Caet*/
+  .card5 p{ 
+    color: #FFFFFF;
+  }
